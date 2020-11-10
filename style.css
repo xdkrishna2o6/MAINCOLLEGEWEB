@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+body{
+  background-image: url('baloon.jpg');
+  width: 100%;
+  height: 100%;
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+  position: relative;
+  font-family: 'Poppins', sans-serif;
+animation-name: change1;
+animation-duration: 10s;
+animation-iteration-count: infinite;
+}
+@keyframes change1{
+0%{
+color: white;
+}
+10%{
+  color: #E23E57;
+}
+20%{
+color: #88304E;
+}
+30%{
+color: #522546;
+}
+40%{
+color: #311D3F;
+}
+50%{
+color: black;
+}
+60%{
+  color: #311D3F;
+}
+70%{
+color: #522546;
+}
+80%{
+color: #88304E;
+}
+90%{
+color: #E23E57;
+}
+100%{
+color: white;
+}
+}
+h1{
+  font-size: 50px;
+}
+#up{
+  margin: 0px;
+  padding: 0px;
+  position: absolute;
+  top: 35%;
+  left: 35%;
+}
+.container{
+	background: rgba(255, 165, 0, 0.73)
+overflow: hidden;
+width: 100%;
+height: 8%;
+font-family: 'Poppins', sans-serif;
+}
+.container a {
+  float: left;
+  width: 20%;
+  height: 90%;
+  color: #522546;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: 'Poppins', sans-serif;
+}
+.container a:hover {
+  background-color:#311D3F;
+  color:white;
